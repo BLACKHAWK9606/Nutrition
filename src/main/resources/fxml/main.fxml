@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.MainController">
+    <TextField fx:id="foodInput" layoutX="50" layoutY="50" prefWidth="200"/>
+    <Button text="Search" layoutX="270" layoutY="50" onAction="#handleSearch"/>
+    <Label fx:id="resultLabel" layoutX="50" layoutY="100"/>
+</AnchorPane>
